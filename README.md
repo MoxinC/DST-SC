@@ -39,4 +39,24 @@ Our model achieves the following performance on [MultiWOZ 2.0](https://arxiv.org
 
 
 ## Citation
-> Dialogue State Tracking with Explicit Slot Connection Modeling. Yawen Ouyang, Moxin Chen, Xinyu Dai, Yinggong Zhao, Shujian Huang and Jiajun Chen. ACL 2020.
+If you used the datasets or code, please cite our paper:
+```bibtex
+@inproceedings{ouyang-etal-2020-dialogue,
+    title = "Dialogue State Tracking with Explicit Slot Connection Modeling",
+    author = "Ouyang, Yawen  and
+      Chen, Moxin  and
+      Dai, Xinyu  and
+      Zhao, Yinggong  and
+      Huang, Shujian  and
+      Chen, Jiajun",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.5",
+    doi = "10.18653/v1/2020.acl-main.5",
+    pages = "34--40",
+    abstract = "Recent proposed approaches have made promising progress in dialogue state tracking (DST). However, in multi-domain scenarios, ellipsis and reference are frequently adopted by users to express values that have been mentioned by slots from other domains. To handle these phenomena, we propose a Dialogue State Tracking with Slot Connections (DST-SC) model to explicitly consider slot correlations across different domains. Given a target slot, the slot connecting mechanism in DST-SC can infer its source slot and copy the source slot value directly, thus significantly reducing the difficulty of learning and reasoning. Experimental results verify the benefits of explicit slot connection modeling, and our model achieves state-of-the-art performance on MultiWOZ 2.0 and MultiWOZ 2.1 datasets.",
+}
+```
