@@ -39,7 +39,6 @@ Our model achieves the following performance on [MultiWOZ 2.0](https://arxiv.org
 
 
 ## Citation
-If you used the datasets or code, please cite our paper:
 ```bibtex
 @inproceedings{ouyang-etal-2020-dialogue,
     title = "Dialogue State Tracking with Explicit Slot Connection Modeling",
